@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="380dp"
+        android:layout_width="268dp"
+        android:paddingTop="50dp"
+        android:id="@+id/card_view_pop"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="35dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/movie_img_pop"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <!--
+        <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_gravity="bottom"
+                 android:weightSum="100">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="90"
+                     android:textSize="14sp"
+                     android:text="Movie Category"
+                     android:id="@+id/movie_category"
+                     android:gravity="start"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="10"
+                     android:textSize="14sp"
+                     android:text="Movie Duration"
+                     android:id="@+id/movie_duration"
+                     android:gravity="center"/>
+     </LinearLayout>
+     -->
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "30sp"
+        android:text="@string/movie_title"
+        android:paddingTop="16dp"
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:id="@+id/movie_title_pop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:id="@+id/rating_bar_pop"
+            android:layout_gravity="center"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:numStars="5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            android:stepSize="0.5" />
+
+    </LinearLayout>
+
+</LinearLayout>
