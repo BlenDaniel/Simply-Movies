@@ -1,8 +1,10 @@
 # SimplyMovies
 
 Simple Movie browsing app in Native Android by calling REST API with MVVM and Retrofit2. Clone and test the app to search Movies or get popular trending movies and read about it description quickly. 
-<br>
+<br><br>
 Project I did to understand REST API with MVVM and Retrofit2 for Native Android Mobile App Development. :)
+<br><br>
+Futher reference and guide can be found here - https://www.youtube.com/watch?v=3l4OShOR8jw
 
 # Backend for the API 
 https://www.themoviedb.org/
