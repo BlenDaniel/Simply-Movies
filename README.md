@@ -2,8 +2,7 @@
 
 I created a straightforward Native Android Movie browsing app that utilizes MVVM and Retrofit2 to call a REST API. The app allows users to search for movies, explore popular trending movies, and quickly access their descriptions.
 <br><br>
-The project was an excellent opportunity for me to gain hands-on experience in developing Native Android Mobile Apps using REST API, MVVM architecture, and Retrofit2. It was an enjoyable learning experience! :)
-<br><br>
+
 Futher reference and guide can be found here - https://www.youtube.com/watch?v=3l4OShOR8jw
 
 # Backend for the API 
